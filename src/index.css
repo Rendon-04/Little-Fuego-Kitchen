@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+
+:root {
+
+  /* Common Style Variables */
+
+  /* Color */
+  --background-default: #0A0B0A;
+  --border-default: rgba(239, 231, 210, 0.15);
+  --background-muted: rgba(24, 24, 24, 0.50);
+  --color-antiquewhite: rgba(239, 231, 210, 0.15);
+  --color-gray-100: #0a0b0a;
+  --color-gray-200: rgba(24, 24, 24, 0.5);
+  
+  /* Padding */
+  --padding-6: 6px;
+  --padding-12: 12px;
+  --padding-16: 16px;
+  --padding-24: 24px;
+  
+  /* BorderRadius */
+  --br-0: 0px;
+  --br-48: 48px;
+  
+  /* WidthHeights */
+  --height-18: 18px;
+  --height-24: 24px;
+  --height-36: 36px;
+  --width-18: 18px;
+  --width-24: 24px;
+  --width-36: 36px;
+  
+}

@@ -1,0 +1,27 @@
+/* App.css */
+.frontpage{
+  --pad: 24px;
+  --gap: 24px;
+
+  height: 100vh;
+  padding: var(--pad);
+  box-sizing: border-box;
+  background: var(--color-gray-100);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.content{
+  display: flex;
+  align-items: flex-start;
+  gap: var(--gap);
+  flex-wrap: nowrap;
+  width: 100%;
+  max-width: 1920px;
+  height: calc(100vh - 48px);
+  max-height: 900px;
+}
+
+.content > *{ flex: 0 0 auto; }
